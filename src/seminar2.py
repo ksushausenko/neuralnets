@@ -146,10 +146,10 @@ def train():
     # weights images must look like in lecture slides
 
     # ***** START OF YOUR CODE *****
-    learning_rate = 0.05
+    learning_rate = 0.03
     reg = 0.01
     num_iters = 3000
-    batch_size = 64
+    batch_size = 128
     # ******* END OF YOUR CODE ************
 
     (x_train, y_train), (x_test, y_test) = get_preprocessed_data()
